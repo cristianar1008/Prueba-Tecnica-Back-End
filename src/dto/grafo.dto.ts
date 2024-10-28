@@ -7,8 +7,8 @@ export class GrafoDTO {
   @IsObject()
   @ApiProperty()
   @ValidateNested({ each: true })
-  @Type(() => Object) // Esto permite que el objeto sea de tipo Record<string, Record<string, number>>
-  grafo: Record<string, Record<string, number>>; // Definición corregida
+  @Type(() => Object) 
+  grafo: Record<string, Record<string, number>>; 
 
   @IsString()
   @ApiProperty()
