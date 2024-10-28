@@ -34,7 +34,7 @@ pnpm start:dev
 
 Abre http://localhost:3000 en tu navegador para verificar que el servidor esté en funcionamiento.
 
-Documentación de la API
+Documentación de la API: 
 Este proyecto utiliza Swagger para documentar la API. Puedes acceder a la documentación interactiva en:
 
 http://localhost:3000/api
